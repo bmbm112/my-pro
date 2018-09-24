@@ -1,0 +1,158 @@
+/*
+Theme Name: Start WordPress
+Author: Ahmed soliman
+Description: custom template converted to WordPress
+Version: 0.0.1
+Tags: bootstrap
+*/
+
+body{
+ 	font-family:Lato
+ 	font-weight:600px;
+ 	background-image: url("../img/img1.png");
+ 	background-attachment: fixed;
+ 	min-height: 75rem;
+    padding-top: 4.5rem;
+    width: auto;
+    padding: 0;
+    margin: 0;
+    max-width: 900px
+    min-width:500px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+ }
+
+
+ h1,h2,h3,h4,h5,h6{
+ 	font-weight:700;font-family:Montserrat
+ }
+
+.navbar{
+  background-color:gray;
+    overflow: hidden;
+}
+
+.navbar .navbar-nav {
+  margin:0 auto;
+  
+}
+
+a {
+
+	font-size: 25px;
+}
+
+
+ul {
+
+	min-width: 696px;
+	list-style: none;
+}
+
+li {
+	display: inline;
+	padding:15px;
+}
+
+a:hover{
+	background-color: #CCD1D1;
+	text-decoration: none;
+}
+ .topnav a.active {
+	background-color:#BFC9CA;
+}
+
+.header h1, h2 ,h4{
+   
+   color:white;
+   text-shadow: 3px 2px black;
+}
+
+
+.header {
+	padding: 60px;
+	margin: 80px;
+
+}
+
+.flex-container {
+  display: flex;
+  background-color: white;
+  justify-content: center;
+  width: 100%;
+
+}
+
+.flex-container .row .col {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 20px;
+  float:left;
+  font-size: 21px;
+}
+
+
+.flex-container .row {
+
+	padding:40px;
+}
+
+.col-content {
+
+	padding: 15px;
+	font-size: 25px;
+}
+  
+#About .container-fluid {
+
+	background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/04/Mountains-nature-snow-artwork-reid-southen-HD-wallpaper.jpg");
+	background-attachment: fixed;
+}
+
+#About .container-fluid .row .col{
+
+	padding: 74px;
+	position: relative;
+	margin: 30px;
+}
+	
+
+#About .container-fluid .row .col h1  , h5 {
+
+	color:white;
+	text-shadow: none;
+	font-weight: 900px;
+}
+
+footer {
+	background-color: white;
+}
+
+
+.footer .container .row {
+	padding: 60px;
+}
+
+.footer .container .row .col h4 {
+	color:black;
+	text-shadow: none;
+}
+
+.footer .container .row .col ul {
+	background-color: #2E2E2E;
+	border-radius: 15px;
+}
+
+.copyright {
+   background-color: white;
+}
+
+.copyright .container small {
+
+	color:gray;
+}
+
+.btn {
+	cursor: pointer;
+}
